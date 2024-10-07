@@ -1,6 +1,6 @@
 class Solution(object):
     def isValid(self, s):
-         def isValid(self,s):
+       
    
         stack = []
 
