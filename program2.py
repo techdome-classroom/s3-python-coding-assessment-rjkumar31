@@ -1,6 +1,5 @@
 class Solution(object):
-    def romanToInt(self, s):
-       class Solution(object):
+   
     def isValid(self,s):
    
         stack = []
