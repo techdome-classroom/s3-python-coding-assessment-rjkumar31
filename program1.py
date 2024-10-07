@@ -45,10 +45,7 @@ class Solution(object):
 
         return len(stack) == 0
 
-# Example usage
-print(is_valid("()"))       # Output: True
-print(is_valid("()[]{}"))   # Output: True
-print(is_valid("(]"))       # Output: False
+
 
 
 
