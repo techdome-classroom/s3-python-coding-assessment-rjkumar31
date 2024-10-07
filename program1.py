@@ -28,7 +28,7 @@ class Solution(object):
         
         # return len(stack) == 0
 
-            bracket_map = {')': '(', '}': '{', ']': '['}
+        bracket_map = {')': '(', '}': '{', ']': '['}
         # Stack to keep track of open brackets
             stack = []
 
