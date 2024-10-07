@@ -9,12 +9,7 @@ class Solution(object):
             ')': '(',
             '}': '{',
             ']': '['
-        }
-
-    
-        for char in s:
-            
-            if char in bracket_map:
+        
     
 
 
