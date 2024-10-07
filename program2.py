@@ -14,18 +14,18 @@ class Solution(object):
     
         for char in s:
             
-           class Solution(object):
-    def romanToInt(self, s):
-        roman_map = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
-        total = 0
-        prev_value = 0
-        
-        for char in s[::-1]:
-            value = roman_map[char]
-            if value < prev_value:
-                total -= value
+            if char in bracket_map:
+            
+                top_element = stack.pop() if stack else '#'
+                
+                
+                if bracket_map[char] != top_element:
+                    return False
             else:
-                total += value
-            prev_value = value
+            
+                stack.append(char)
+
         
-        return total
+        return len(stack) == 0
+
+
