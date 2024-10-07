@@ -28,7 +28,7 @@ class Solution(object):
         
         # return len(stack) == 0
 
-       def is_valid(s: str) -> bool:
+       
         stack = []
         opening = '({['
         closing = ')}]'
