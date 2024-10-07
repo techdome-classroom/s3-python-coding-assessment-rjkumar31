@@ -30,7 +30,7 @@ class Solution(object):
 
             bracket_map = {')': '(', '}': '{', ']': '['}
         # Stack to keep track of open brackets
-        stack = []
+            stack = []
 
         for char in s:
             if char in bracket_map.values():  # Check if it's an open bracket
